@@ -1,6 +1,47 @@
 # 💫 About Me:
-👋 Hi, I'm Vishal Sheth<br>🚀 Co-Founder & CTO at PublicNext — a hyperlocal news and social media platform redefining how communities engage with local information.<br><br>🏆 Winner, Google News Innovation Challenge (Asia Pacific, 2022)<br>🎓 Alumnus, Google Appscale Academy (Class of 2023)<br><br>💡 I’m passionate about building scalable, multilingual, SEO-optimized platforms that empower hyperlocal journalism and community-driven conversations. At PublicNext, I lead the tech behind our mobile apps, progressive web experiences, real-time API infrastructure, and scalable content delivery using tools like Go, MySQL/MariaDB, Next.js, Memcached, FFmpeg, and CDN architecture.<br><br>📍 Focus Areas:<br><br>High-performance backend architecture<br><br>Hyperlocal news distribution at scale<br><br>Technical SEO and content discoverability<br><br>Video and image optimisation<br><br>Multilingual content workflows (Kannada, Hindi, English)<br><br>🌱 Currently exploring cost-efficient AI-powered content workflows and scalable infrastructure for media startups.<br><br>
+👋 Hi, I'm Vishal Sheth
+🚀 Co-Founder & CTO at PublicNext — a hyperlocal news and social media platform connecting communities through technology, language, and storytelling.
 
+🏆 Winner, Google News Innovation Challenge (Asia Pacific, 2022)
+🎓 Alumnus, Google Appscale Academy (Class of 2023)
+
+As the technical force behind PublicNext, I focus on building high-performance, cost-effective, and scalable systems to support millions of users across web and mobile platforms. Here’s what I’ve been working on:
+
+🔧 Custom Infrastructure Engineering
+
+Compiled FFmpeg manually on AWS ARM (Amazon Linux 2) to enable video processing on Graviton-based instances, where prebuilt binaries were unavailable.
+
+Built and integrated the Brotli compression module for NGINX manually due to its absence in the default AWS AMI 2 package — leading to better web performance and reduced bandwidth.
+
+Developed an in-house video transcoding pipeline in Go, replacing expensive third-party services to take full advantage of Linux-based spot instances — significantly cutting cloud costs.
+
+💡 Go-Driven API Ecosystem
+
+Wrote over 200 production-grade REST APIs in Go (Golang) powering the backend for PublicNext’s multilingual and media-rich experience.
+
+Delivered backend support for the Next.js-based PublicNext site, enabling 100% scores in SEO, Accessibility, and Performance via optimized schema, caching, and image/video strategies.
+
+Architected a caching layer with Memcached, integrated with MariaDB, to support low-latency news distribution.
+
+💰 Cost Optimization at Scale
+
+Architected the infrastructure to run on AWS Spot Instances and ARM-based machines for maximum cost efficiency without compromising performance.
+
+Transitioned core media workflows (like video transcoding) in-house, resulting in substantial monthly savings and greater control over processing pipelines.
+
+🌐 Focus Areas:
+
+Backend Systems (Go, MariaDB, FFmpeg, NGINX)
+
+Technical SEO & Schema.org for Next.js
+
+CDN & Image/Video Optimization
+
+Multilingual content pipelines (Kannada, Hindi, English)
+
+Scalable News API Architecture
+
+Always experimenting. Always optimizing. Passionate about using tech to inform, empower, and connect communities at the local level.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/vpsheth/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vishal.sheth@publicnext.com) 
